@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  body{
+      background-image: url(bg.jpeg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      height:100vh;
+  }
+  .logo{
+      width: 100px;
+      margin-top: 20px;
+      border-radius: 50%;
+  }
+  .header-btn{
+      display: inline-block;
+      float: right;
+      color: white;
+      text-transform: uppercase;
+      margin-top: 30px;
+      padding: 10px 10px 10px 10px;   
+  }
+  .food-details{
+      margin: 3% 0;
+  }
+  .left-box{
+      color:white;
+      text-transform: uppercase;
+      margin: 15px, 0;
+      padding: 20px;
+      float: left;
+  }
+  .casting img{
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+      cursor: pointer;
+  }
+ .left-box a{
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;   
+    background: rosybrown;
+    border-radius: 30px;
+}
+ .series h3{
+     color: white;
+     text-transform:uppercase ;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ .series img{
+    width: 100%;
+    cursor: pointer;
+    transition: 10ms;
+ }
+ .series img:hover{
+     transform: translateY(-10px);
+ }
+ .top img{
+     width: 300px;
+     margin: -350px 60px 60px 700px;
+     border-radius: 50%;
+ }
